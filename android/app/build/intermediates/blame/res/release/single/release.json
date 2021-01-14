@@ -212,6 +212,10 @@
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/res/color/material_slider_thumb_color.xml"
     },
     {
+        "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/tech-in/Documentos/IPRB/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/layout-sw600dp-v13_mtrl_layout_snackbar.xml.flat",
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/res/layout-sw600dp-v13/mtrl_layout_snackbar.xml"
     },
@@ -656,6 +660,10 @@
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
     },
     {
+        "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tech-in/Documentos/IPRB/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/layout_abc_screen_toolbar.xml.flat",
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/1ae5e525a788b2db92bba9a286aac179/appcompat-1.1.0/res/layout/abc_screen_toolbar.xml"
     },
@@ -736,6 +744,10 @@
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/1ae5e525a788b2db92bba9a286aac179/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/tech-in/Documentos/IPRB/android/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/interpolator_mtrl_linear.xml.flat",
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/res/interpolator/mtrl_linear.xml"
     },
@@ -806,6 +818,10 @@
     {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/1ae5e525a788b2db92bba9a286aac179/appcompat-1.1.0/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tech-in/Documentos/IPRB/android/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/drawable-v21_abc_btn_colored_material.xml.flat",
@@ -2170,6 +2186,10 @@
     {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/1ae5e525a788b2db92bba9a286aac179/appcompat-1.1.0/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/tech-in/Documentos/IPRB/android/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/res/merged/release/layout_onesignal_bgimage_notif_layout.xml.flat",

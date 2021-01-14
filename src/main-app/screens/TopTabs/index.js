@@ -9,10 +9,10 @@ import API from "../../services/axios-instance";
 import styles from "./styles";
 
 const tabs = [
-    // {
-    //     screen: SerialCard,
-    //     label: "Cartão",
-    // },
+    {
+        screen: SerialCard,
+        label: "Cartão",
+    },
     {
         screen: Products,
         label: "Produtos",

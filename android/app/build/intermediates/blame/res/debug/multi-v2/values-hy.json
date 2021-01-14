@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/app_iprb/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
+            "outputFile": "/home/tech-in/Área de Trabalho/projetos/app_iprb/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/1ae5e525a788b2db92bba9a286aac179/appcompat-1.1.0/res/values-hy/values-hy.xml",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/res/values-hy/values-hy.xml",
+                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/35d6ea8ee050f71476b5b184708732e5/core-1.3.1/res/values-hy/values-hy.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

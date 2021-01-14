@@ -1,25 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/app_iprb/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/home/tech-in/Área de Trabalho/projetos/app_iprb/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
-                {
-                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/res/values-or/values-or.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "49",
-                        "startColumns": "4",
-                        "startOffsets": "5830",
-                        "endColumns": "100",
-                        "endOffsets": "5926"
-                    }
-                },
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/4f075cb613d9637f0e22208466976f99/jetified-play-services-basement-17.2.1/res/values-or/values.xml",
                     "from": {
@@ -69,6 +52,23 @@
                         "startOffsets": "105,224,334,441,527,631,751,829,906,997,1089,1185,1280,1381,1474,1569,1665,1756,1846,1934,2044,2148,2254,2365,2469,2587,2750,5741",
                         "endColumns": "118,109,106,85,103,119,77,76,90,91,95,94,100,92,94,95,90,89,87,109,103,105,110,103,117,162,105,88",
                         "endOffsets": "219,329,436,522,626,746,824,901,992,1084,1180,1275,1376,1469,1564,1660,1751,1841,1929,2039,2143,2249,2360,2464,2582,2745,2851,5825"
+                    }
+                },
+                {
+                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/35d6ea8ee050f71476b5b184708732e5/core-1.3.1/res/values-or/values-or.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "49",
+                        "startColumns": "4",
+                        "startOffsets": "5830",
+                        "endColumns": "100",
+                        "endOffsets": "5926"
                     }
                 },
                 {

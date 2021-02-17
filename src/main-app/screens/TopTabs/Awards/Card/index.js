@@ -25,6 +25,11 @@ export default function Card({ premiacao }) {
         return formattedDate;
     }
 
+    if (!premiacao.paid && premiacao.status === "estorno") {
+        status = "Estorno";
+        statusBgColor = styles.OrangeStatus;
+    }
+
     if (premiacao.paid) {
         notAvailableUntil = formattingDateHandler(
             premiacao.not_available_until
@@ -106,6 +111,9 @@ const styles = StyleSheet.create({
     },
     GreenStatus: {
         backgroundColor: "#8FE362",
+    },
+    OrangeStatus: {
+        backgroundColor: "#ffa500",
     },
     StatusText: {
         fontWeight: "bold",

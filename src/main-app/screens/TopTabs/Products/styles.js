@@ -6,13 +6,13 @@ import {
 
 export default StyleSheet.create({
     ScrollView: {
-        backgroundColor: "#3F5EBE",
+        flex: 1,
+        backgroundColor: '#3F5EBE'
     },
     Container: {
         paddingVertical: rh("2%"),
         alignItems: "center",
         height: "100%",
-        backgroundColor: "#3F5EBE",
     },
     TopBox: {
         backgroundColor: "#fff",

@@ -153,6 +153,7 @@ export const saveOrder = (order) => {
             }
 
             order.app_user_id = appUserId;
+            order.app_user_email = mainAppResponse.data.email;
             order.app_product_id =
                 main_app_healthInsuranceId.HEALTH_INSURANCE_ID;
 

@@ -1,5 +1,5 @@
-rootProject.name = 'techin'
-include ':react-native-techin'
-project(':react-native-techin').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-techin/lib/android/app')
+rootProject.name = 'iprb'
+include ':react-native-iprb'
+project(':react-native-iprb').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-iprb/lib/android/app')
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'

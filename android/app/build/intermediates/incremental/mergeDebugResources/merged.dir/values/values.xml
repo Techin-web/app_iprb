@@ -115,8 +115,6 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <color name="androidx_core_ripple_material_light">#1f000000</color>
-    <color name="androidx_core_secondary_text_default_material_light">#8a000000</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -698,8 +696,6 @@
     <item name="original_layout_params" type="id"/>
     <item name="original_left" type="id"/>
     <item name="original_parent" type="id"/>
-    <item name="original_pivot_x" type="id"/>
-    <item name="original_pivot_y" type="id"/>
     <item name="original_right" type="id"/>
     <item name="original_top" type="id"/>
     <item name="parent_matrix" type="id"/>
@@ -2838,6 +2834,14 @@
     </style>
     <style name="ClockTimePickerStyle" ns2:targetApi="lollipop" parent="android:Widget.Material.Light.TimePicker">
       <item name="android:timePickerMode">clock</item>
+    </style>
+    <style name="DefaultExplainingPermissionsTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">#61c3e7</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">#3d3d3d</item>
+        <!-- Used for the background -->
+        <item name="android:background">@android:color/white</item>
     </style>
     <style name="DialogAnimationFade">
     <item name="android:windowEnterAnimation">@anim/catalyst_fade_in</item>
@@ -6893,12 +6897,7 @@
     <declare-styleable name="ScrimInsetsFrameLayout">
     <attr format="color|reference" name="insetForeground"/>
   </declare-styleable>
-    <declare-styleable name="ScrollBar">
-        <attr format="color|reference" name="sb_handlerColor"/>
-        <attr format="color|reference" name="sb_indicatorColor"/>
-        <attr format="color|reference" name="sb_indicatorTextColor"/>
-        <attr format="boolean|reference" name="sb_horizontal"/>
-    </declare-styleable>
+    <declare-styleable name="ScrollBar"><attr format="color|reference" name="sb_handlerColor"/><attr format="color|reference" name="sb_indicatorColor"/><attr format="color|reference" name="sb_indicatorTextColor"/><attr format="boolean|reference" name="sb_horizontal"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout">
     <!-- The amount that the scrolling view should overlap the bottom of any AppBarLayout -->
     <attr format="dimension" name="behavior_overlapTop"/>

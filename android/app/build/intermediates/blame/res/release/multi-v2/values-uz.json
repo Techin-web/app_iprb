@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
+            "outputFile": "/home/tech-in/Documentos/iprb/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-uz/values-uz.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/9aa763621e79733cd934abd440eff4a5/jetified-firebase-messaging-19.0.0/res/values-uz/values.xml",

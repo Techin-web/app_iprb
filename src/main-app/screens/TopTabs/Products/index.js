@@ -10,50 +10,62 @@ import {
 } from "react-native";
 import { Navigation } from "react-native-navigation";
 import { navigationName } from "../../../routes";
+import { HEALTH_INSURANCE_ID, AXA_TELEMEDICINA_ID } from "../../../config/institution-metadata";
 import Card from "../../../components/CardTopTabs";
 import IconFontAwesome5 from "react-native-vector-icons/dist/FontAwesome5";
 import axios from "../../../services/axios-instance";
-
-import { responsiveWidth as rw } from "../../../util/Dimensions";
-
-import styles from "./styles";
-
-import Plans from '../../../config/plans';
-
+import Plans from "../../../config/plans";
 import IconTooSeguros from "../../../assets/tooseguros-logo.png";
 import IconBancoPan from "../../../assets/logo-pan.png";
 import CaixaCap from "../../../assets/caixacap-logo.png";
 import Axa from "../../../assets/axa.png";
 
+import { responsiveWidth as rw } from "../../../util/Dimensions";
+
+import styles from "./styles";
+
+
 class Products extends Component {
     state = {
-        userCard: null,
         didMount: false,
     };
 
     componentDidMount = async () => {
-        const { data: userCard } = await axios.get("/cartao/usuario");
-
-        this.setState({ didMount: true, userCard });
+        this.setState({ didMount: true });
     };
 
     onNavigateToScreen = (screenName) => {
-        if (!this.state.userCard) {
-            return Alert.alert(
-                "Usuário não possui cartão cadastrado!",
-                "Solicite seu cartão antes de prosseguir com esta ação."
-            );
-        }
-
         Navigation.push(this.props.componentId, {
             component: {
                 name: screenName,
                 passProps: {
-                    plan: Plans[screenName]
-                }
+                    plan: Plans[screenName],
+                },
             },
         });
     };
+
+    onNavigateToScreenWithTutorial = async (targetScreenName, productId) => {
+        const { data: tutorial } = await axios.get(
+            `/tutorial/${productId}`
+        );
+
+        let nextScreen = navigationName.productTutorial;
+        if (!tutorial) {
+            nextScreen = targetScreenName;
+        }
+
+        Navigation.push(this.props.componentId, {
+            component: {
+                name: nextScreen,
+                passProps: {
+                    nextScreen: targetScreenName,
+                    productId: productId,
+                    tutorial: tutorial
+                },
+            },
+        });
+    }
 
     viewPDF = async () => {
         try {
@@ -111,116 +123,118 @@ class Products extends Component {
         }
 
         return (
-            <ScrollView>
-                <View style={styles.Container}>
-                    <View style={styles.TopBox}>
-                        <Text style={styles.TopBoxText}>O que eu ganho?</Text>
-                        <TouchableOpacity
-                            onPress={this.viewPDF}
-                            style={styles.TopButton}
-                        >
-                            <Text style={styles.TopButtonText}>Saiba Mais</Text>
-                        </TouchableOpacity>
+            <View style={styles.ScrollView}>
+                <ScrollView>
+                    <View style={styles.Container}>
+                        <View style={styles.TopBox}>
+                            <Text style={styles.TopBoxText}>O que eu ganho?</Text>
+                            <TouchableOpacity
+                                onPress={this.viewPDF}
+                                style={styles.TopButton}
+                            >
+                                <Text style={styles.TopButtonText}>Saiba Mais</Text>
+                            </TouchableOpacity>
+                        </View>
+                        <View style={styles.ButtonsHolder}>
+                            <Card
+                                title="Plano de Saúde"
+                                pressed={() =>
+                                    this.onNavigateToScreenWithTutorial(
+                                        "tech.in.HealthInsuranceListScreen", HEALTH_INSURANCE_ID
+                                    )
+                                }
+                                icon={
+                                    <IconFontAwesome5
+                                        name="heartbeat"
+                                        size={rw("12%")}
+                                        color="#246bb3"
+                                        style={styles.ButtonIcon}
+                                    />
+                                }
+                            />
+                            {/* <Card
+                                title="Telemedicina"
+                                pressed={() =>
+                                    this.onNavigateToScreenWithTutorial(
+                                        navigationName.axaTelemedicina, AXA_TELEMEDICINA_ID
+                                    )
+                                }
+                                icon={
+                                    <Image
+                                        resizeMode="contain"
+                                        source={Axa}
+                                        style={styles.AxaIcon}
+                                    />
+                                }
+                            /> */}
+                        </View>
+                        {/* <View style={styles.ButtonsHolder}>
+                            <Card
+                                title="Seguro Residencial"
+                                pressed={() =>
+                                    this.onNavigateToScreen(
+                                        navigationName.toosegurosResidencial
+                                    )
+                                }
+                                icon={
+                                    <Image
+                                        source={IconTooSeguros}
+                                        style={styles.TooSegurosIcon}
+                                    />
+                                }
+                                secondaryIcon={
+                                    <Image
+                                        source={IconBancoPan}
+                                        style={styles.SecondaryIcon}
+                                    />
+                                }
+                            />
+                            <Card
+                                title="Seguro Moto"
+                                pressed={() =>
+                                    this.onNavigateToScreen(
+                                        navigationName.toosegurosMoto
+                                    )
+                                }
+                                icon={
+                                    <Image
+                                        source={IconTooSeguros}
+                                        style={styles.TooSegurosIcon}
+                                    />
+                                }
+                                secondaryIcon={
+                                    <Image
+                                        source={IconBancoPan}
+                                        style={styles.SecondaryIcon}
+                                    />
+                                }
+                            />
+                        </View>
+                        <View style={[styles.ButtonsHolder]}>
+                            <Card
+                                title="Seguro Mais Cuidado"
+                                pressed={() =>
+                                    this.onNavigateToScreen(
+                                        navigationName.toosegurosMaisCuidado
+                                    )
+                                }
+                                icon={
+                                    <Image
+                                        source={IconTooSeguros}
+                                        style={styles.TooSegurosIcon}
+                                    />
+                                }
+                                secondaryIcon={
+                                    <Image
+                                        source={IconBancoPan}
+                                        style={styles.SecondaryIcon}
+                                    />
+                                }
+                            />
+                        </View> */}
                     </View>
-                    <View style={styles.ButtonsHolder}>
-                        <Card
-                            title="Plano de Saúde"
-                            pressed={() =>
-                                this.onNavigateToScreen(
-                                    "tech.in.HealthInsuranceListScreen"
-                                )
-                            }
-                            icon={
-                                <IconFontAwesome5
-                                    name="heartbeat"
-                                    size={rw("12%")}
-                                    color="#246bb3"
-                                    style={styles.ButtonIcon}
-                                />
-                            }
-                        />
-                        <Card
-                            title="Telemedicina"
-                            pressed={() =>
-                                this.onNavigateToScreen(
-                                    navigationName.axaTelemedicina,
-                                )
-                            }
-                            icon={
-                                <Image
-                                    resizeMode="contain"
-                                    source={Axa}
-                                    style={styles.AxaIcon}
-                                />
-                            }
-                        />
-                    </View>
-                    <View style={styles.ButtonsHolder}>
-                        <Card
-                            title="Seguro Residencial"
-                            pressed={() =>
-                                this.onNavigateToScreen(
-                                    navigationName.toosegurosResidencial
-                                )
-                            }
-                            icon={
-                                <Image
-                                    source={IconTooSeguros}
-                                    style={styles.TooSegurosIcon}
-                                />
-                            }
-                            secondaryIcon={
-                                <Image
-                                    source={IconBancoPan}
-                                    style={styles.SecondaryIcon}
-                                />
-                            }
-                        />
-                        <Card
-                            title="Seguro Moto"
-                            pressed={() =>
-                                this.onNavigateToScreen(
-                                    navigationName.toosegurosMoto
-                                )
-                            }
-                            icon={
-                                <Image
-                                    source={IconTooSeguros}
-                                    style={styles.TooSegurosIcon}
-                                />
-                            }
-                            secondaryIcon={
-                                <Image
-                                    source={IconBancoPan}
-                                    style={styles.SecondaryIcon}
-                                />
-                            }
-                        />
-                    </View>
-                    <View style={[styles.ButtonsHolder]}>
-                        <Card
-                            title="Seguro Mais Cuidado"
-                            pressed={() =>
-                                this.onNavigateToScreen(
-                                    navigationName.toosegurosMaisCuidado
-                                )
-                            }
-                            icon={
-                                <Image
-                                    source={IconTooSeguros}
-                                    style={styles.TooSegurosIcon}
-                                />
-                            }
-                            secondaryIcon={
-                                <Image
-                                    source={IconBancoPan}
-                                    style={styles.SecondaryIcon}
-                                />
-                            }
-                        />
-                    </View>
-                </View>
-            </ScrollView>
+                </ScrollView>
+            </View>
         );
     }
 }

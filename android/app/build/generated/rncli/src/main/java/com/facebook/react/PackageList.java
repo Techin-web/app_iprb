@@ -35,8 +35,6 @@ import com.reactnativenavigation.react.NavigationPackage;
 import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 // react-native-pdf
 import org.wonday.pdf.RCTPdfView;
-// react-native-vector-icons
-import com.oblador.vectoricons.VectorIconsPackage;
 // react-native-video
 import com.brentvatne.react.ReactVideoPackage;
 // react-native-webview
@@ -100,7 +98,6 @@ public class PackageList {
       new NavigationPackage(reactNativeHost),
       new ReactNativeOneSignalPackage(),
       new RCTPdfView(),
-      new VectorIconsPackage(),
       new ReactVideoPackage(),
       new RNCWebViewPackage(),
       new RNFetchBlobPackage()

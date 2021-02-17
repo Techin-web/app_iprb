@@ -1,4 +1,4 @@
-com.techinweb.techin
+com.techinweb.iprb
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -890,8 +890,6 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
-color androidx_core_ripple_material_light
-color androidx_core_secondary_text_default_material_light
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1897,8 +1895,6 @@ id original_index_in_parent
 id original_layout_params
 id original_left
 id original_parent
-id original_pivot_x
-id original_pivot_y
 id original_right
 id original_top
 id os_bgimage_notif_bgimage
@@ -2126,6 +2122,7 @@ layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout dev_loading_view
 layout fps_view
+layout list_item
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title
@@ -2602,6 +2599,7 @@ style CardView_Dark
 style CardView_Light
 style ClockTimePickerDialog
 style ClockTimePickerStyle
+style DefaultExplainingPermissionsTheme
 style DialogAnimationFade
 style DialogAnimationSlide
 style EmptyTheme
@@ -3190,7 +3188,6 @@ styleable ViewPager2 android_orientation
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable scaleStyle scalableType
 xml file_provider_paths
-xml imagepicker_provider_paths
 xml provider_paths
 xml rn_dev_preferences
 xml standalone_badge

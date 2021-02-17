@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Área de Trabalho/projetos/app_iprb/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
+            "outputFile": "/home/tech-in/Área de Trabalho/projetos/iprb_mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-b+sr+Latn/values-b+sr+Latn.xml",
             "map": [
                 {
-                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/35d6ea8ee050f71476b5b184708732e5/core-1.3.1/res/values-b+sr+Latn/values-b+sr+Latn.xml",
+                    "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/res/values-b+sr+Latn/values-b+sr+Latn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.techinweb.techin"
+    package="com.techinweb.iprb"
     android:targetSandboxVersion="2"
     android:versionCode="1"
     android:versionName="1.0" >
@@ -21,10 +21,10 @@
         android:glEsVersion="0x00020000"
         android:required="true" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.techinweb.techin.permission.C2D_MESSAGE"
+        android:name="com.techinweb.iprb.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.techinweb.techin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.techinweb.iprb.permission.C2D_MESSAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <!--
@@ -58,7 +58,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.techinweb.techin.MainApplication"
+        android:name="com.techinweb.iprb.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -68,7 +68,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
         <activity
-            android:name="com.techinweb.techin.MainActivity"
+            android:name="com.techinweb.iprb.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
             android:label="@string/app_name"
             android:launchMode="singleTask"
@@ -107,7 +107,7 @@
             <intent-filter android:priority="999" >
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.techinweb.techin" />
+                <category android:name="com.techinweb.iprb" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
@@ -196,17 +196,17 @@
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <provider
-            android:name="com.imagepicker.ImagePickerProvider"
-            android:authorities="com.techinweb.techin.imagepickerprovider"
+            android:name="com.imagepicker.FileProvider"
+            android:authorities="com.techinweb.iprb.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/imagepicker_provider_paths" />
+                android:resource="@xml/provider_paths" />
         </provider>
         <provider
             android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-            android:authorities="com.techinweb.techin.fileprovider"
+            android:authorities="com.techinweb.iprb.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -215,7 +215,7 @@
         </provider>
         <provider
             android:name="com.RNFetchBlob.Utils.FileProvider"
-            android:authorities="com.techinweb.techin.provider"
+            android:authorities="com.techinweb.iprb.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -229,7 +229,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.techinweb.techin.firebaseinitprovider"
+            android:authorities="com.techinweb.iprb.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
     </application>

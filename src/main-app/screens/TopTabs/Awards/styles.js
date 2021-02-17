@@ -39,11 +39,11 @@ export default StyleSheet.create({
         textAlign: "center",
     },
     BottomContentHeader: {
-        paddingVertical: rh("3.5%"),
-        marginBottom: rh("2%"),
-        paddingHorizontal: rw("5%"),
-        flexDirection: "row",
-        justifyContent: "space-between",
+        paddingVertical: rh("1.5%"),
+        marginBottom: rh("4%"),
+        // paddingHorizontal: rw("5%"),
+        // flexDirection: "row",
+        // justifyContent: "space-between",
 
         backgroundColor: "#eee",
 
@@ -64,21 +64,21 @@ export default StyleSheet.create({
     BalanceText: {
         color: "#000",
         fontWeight: "700",
-        fontSize: rw("4.2%"),
+        fontSize: rw("3.2%"),
         textTransform: "uppercase",
     },
     AmountText: {
-        color: "#000",
+        color: "#3752A6",
         fontWeight: "700",
         fontSize: rw("5.5%"),
     },
     BottomContentHeaderRight: {
-        width: "45%",
+        // width: "45%",
+        // alignItems: "flex-end"
     },
     Button: {
-        paddingVertical: rh("2%"),
+        padding: 10,
         backgroundColor: "#105F9C",
-        alignItems: "center",
         borderRadius: 6,
     },
     ButtonText: {
@@ -97,4 +97,9 @@ export default StyleSheet.create({
         width: "100%",
         alignItems: "center",
     },
+    FooterButtons: {
+        marginTop: 16,
+        flexDirection: "row",
+        justifyContent: "space-around"
+    }
 });

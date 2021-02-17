@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "/home/tech-in/Documentos/iprb/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/res/values-sv/values-sv.xml",

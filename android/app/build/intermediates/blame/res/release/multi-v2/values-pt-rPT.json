@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "outputFile": "/home/tech-in/Documentos/iprb/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/9aa763621e79733cd934abd440eff4a5/jetified-firebase-messaging-19.0.0/res/values-pt-rPT/values.xml",

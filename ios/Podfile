@@ -1,6 +1,10 @@
 platform :ios, '11.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+target 'OneSignalNotificationServiceExtension' do
+    pod 'OneSignal', '>= 2.9.3', '< 3.0'
+end
+
 def add_flipper_pods!(versions = {})
   versions['Flipper'] ||= '~> 0.33.1'
   versions['DoubleConversion'] ||= '1.1.7'
@@ -44,8 +48,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'techin' do
-  # Pods for techin
+target 'iprb' do
+  # Pods for iprb
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +81,7 @@ target 'techin' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'techinTests' do
+  target 'iprbTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +98,10 @@ target 'techin' do
   end
 end
 
-target 'techin-tvOS' do
-  # Pods for techin-tvOS
+target 'iprb-tvOS' do
+  # Pods for iprb-tvOS
 
-  target 'techin-tvOSTests' do
+  target 'iprb-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

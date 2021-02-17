@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/home/tech-in/Documentos/iprb/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/4f075cb613d9637f0e22208466976f99/jetified-play-services-basement-17.2.1/res/values-da/values.xml",

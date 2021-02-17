@@ -1,31 +1,30 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-12:12
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
-MERGED from [:react-native-onesignal] /home/tech-in/Documentos/IPRB/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-onesignal] /home/tech-in/Documentos/iprb/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-7:12
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:2:1-122:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1c34604b9f2da7f600cce28ff59a3998/play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-messaging:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9aa763621e79733cd934abd440eff4a5/jetified-firebase-messaging-19.0.0/AndroidManifest.xml:17:1-37:12
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/b1bafabd413fbf6a0539f70d614ac581/firebase-iid-interop-17.0.0/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:17:1-29:12
-MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:lottie-react-native] /home/tech-in/Documentos/IPRB/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:2:1-17:12
-MERGED from [:react-native-pdf] /home/tech-in/Documentos/IPRB/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
-MERGED from [:react-native-vector-icons] /home/tech-in/Documentos/IPRB/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-video] /home/tech-in/Documentos/IPRB/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-47:12
-MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4dbd4c40f96a6f4a0b5b4cf1899aca42/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:lottie-react-native] /home/tech-in/Documentos/iprb/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:2:1-17:12
+MERGED from [:react-native-pdf] /home/tech-in/Documentos/iprb/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-video] /home/tech-in/Documentos/iprb/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-23:12
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-47:12
+MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/dd057d448e8e21e4e5bd03c42f79b399/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
 MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/tech-in/.gradle/caches/transforms-2/files-2.1/38e99c79ef56f8c33eaa050abe489800/reflow-animator-1.0.6/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/596226c7525553f4abb06262d8391358/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.barteksc:pdfium-android:1.9.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/5bcf3c970f6205a89099b9aa0638b290/jetified-pdfium-android-1.9.0/AndroidManifest.xml:2:1-11:12
@@ -34,8 +33,8 @@ MERGED from [androidx.browser:browser:1.0.0] /home/tech-in/.gradle/caches/transf
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/0370cb44fb6e9467cb706a4cf54c5e4c/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/cc9df12b5fe36837d58ea04585572259/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [org.webkit:android-jsc:r245459] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9d714119a9f5614901429a68a092ab8b/android-jsc-r245459/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
-MERGED from [:react-native-location] /home/tech-in/Documentos/IPRB/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/iprb/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-location] /home/tech-in/Documentos/iprb/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:2:1-11:12
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/d31cb402ffaf682b9ac36d8ca0ecc443/lottie-3.4.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9371038f989038f7fd0d29e8755e0098/ahbottomnavigation-3.2.0/AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.material:material:1.2.0-alpha03] /home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/AndroidManifest.xml:17:1-24:12
@@ -94,57 +93,57 @@ MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/tech-in/.gradle/c
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/8a1a3d1f99045ff96b60e9b9bfce8105/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:annotation:0.8.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/b894c6a67d034f56534b358667d08abd/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/654ef7cafdaffc862946b4490f803c5e/annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
 	package
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:2:3-33
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:2:3-31
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:1-40:12
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:1-40:12
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:4:5-67
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:16:5-67
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:16:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:23:5-67
-MERGED from [:lottie-react-native] /home/tech-in/Documentos/IPRB/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:lottie-react-native] /home/tech-in/Documentos/IPRB/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-67
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-67
+MERGED from [:lottie-react-native] /home/tech-in/Documentos/iprb/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:lottie-react-native] /home/tech-in/Documentos/iprb/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.CAMERA
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:5:5-64
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:5:5-64
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:6:5-80
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
-MERGED from [:react-native-location] /home/tech-in/Documentos/IPRB/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
-MERGED from [:react-native-location] /home/tech-in/Documentos/IPRB/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:6:5-80
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-81
+MERGED from [:react-native-location] /home/tech-in/Documentos/iprb/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-location] /home/tech-in/Documentos/iprb/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:6:22-78
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:6:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:7:5-78
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:7:5-78
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:7:22-76
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:7:22-76
 application
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:9:5-38:19
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:9:5-38:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:48:5-120:19
@@ -159,16 +158,16 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/tech-in/.gra
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/b1bafabd413fbf6a0539f70d614ac581/firebase-iid-interop-17.0.0/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:22:5-27:19
-MERGED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:11:5-15:19
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:11:5-15:19
-MERGED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-45:19
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-45:19
-MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4dbd4c40f96a6f4a0b5b4cf1899aca42/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
-MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4dbd4c40f96a6f4a0b5b4cf1899aca42/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-21:19
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:5-45:19
+MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/dd057d448e8e21e4e5bd03c42f79b399/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/dd057d448e8e21e4e5bd03c42f79b399/jetified-react-native-0.62.2/AndroidManifest.xml:11:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/d31cb402ffaf682b9ac36d8ca0ecc443/lottie-3.4.0/AndroidManifest.xml:9:5-20
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/d31cb402ffaf682b9ac36d8ca0ecc443/lottie-3.4.0/AndroidManifest.xml:9:5-20
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9371038f989038f7fd0d29e8755e0098/ahbottomnavigation-3.2.0/AndroidManifest.xml:11:5-20
@@ -204,73 +203,73 @@ MERGED from [com.facebook.soloader:annotation:0.8.0] /home/tech-in/.gradle/cache
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:11:7-39
 	android:roundIcon
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:13:7-52
 	android:icon
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:12:7-41
 	android:allowBackup
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:14:7-34
 	android:theme
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:16:7-38
 	android:usesCleartextTraffic
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:15:7-42
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:15:7-42
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:10:7-38
-activity#com.techinweb.techin.MainActivity
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:18:7-28:18
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.techinweb.iprb.MainActivity
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:18:7-28:18
 	android:label
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:20:9-41
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:20:9-41
 	android:launchMode
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:22:9-40
 	android:windowSoftInputMode
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:23:9-51
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:23:9-51
 	android:configChanges
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:21:9-86
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:21:9-86
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:19:9-37
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:19:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:24:9-27:25
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:24:9-27:25
 action#android.intent.action.MAIN
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:25:13-65
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:25:13-65
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:25:21-62
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:25:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:26:13-73
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:26:13-73
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:26:23-70
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:26:23-70
 meta-data#com.google.android.geo.API_KEY
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:30:7-32:66
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:30:7-32:66
 	android:value
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:32:9-64
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:32:9-64
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:31:9-54
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:31:9-54
 uses-library#org.apache.http.legacy
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:7-85
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:7-85
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 	android:required
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:59-83
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:59-83
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:21-58
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:21-58
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:36:7-84
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:12:9-14:40
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:12:9-14:40
+ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:36:7-84
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:12:9-14:40
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:12:9-14:40
 	android:exported
-		ADDED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:14:13-37
+		ADDED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:36:17-81
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:36:17-81
 uses-sdk
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-maps] /home/tech-in/Documentos/IPRB/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /home/tech-in/Documentos/iprb/node_modules/react-native-maps/lib/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
-MERGED from [:react-native-onesignal] /home/tech-in/Documentos/IPRB/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
-MERGED from [:react-native-onesignal] /home/tech-in/Documentos/IPRB/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] /home/tech-in/Documentos/iprb/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-onesignal] /home/tech-in/Documentos/iprb/node_modules/react-native-onesignal/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-44
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:4:5-44
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:4:5-44
 MERGED from [com.google.android.gms:play-services-location:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1c34604b9f2da7f600cce28ff59a3998/play-services-location-17.0.0/AndroidManifest.xml:5:5-44
@@ -283,32 +282,30 @@ MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/tech-in/.gra
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/b1bafabd413fbf6a0539f70d614ac581/firebase-iid-interop-17.0.0/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:20:5-44
-MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/IPRB/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:lottie-react-native] /home/tech-in/Documentos/IPRB/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:lottie-react-native] /home/tech-in/Documentos/IPRB/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-pdf] /home/tech-in/Documentos/IPRB/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-pdf] /home/tech-in/Documentos/IPRB/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-vector-icons] /home/tech-in/Documentos/IPRB/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-vector-icons] /home/tech-in/Documentos/IPRB/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-video] /home/tech-in/Documentos/IPRB/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-video] /home/tech-in/Documentos/IPRB/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4dbd4c40f96a6f4a0b5b4cf1899aca42/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4dbd4c40f96a6f4a0b5b4cf1899aca42/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/async-storage/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_progress-bar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-bar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_progress-view] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/progress-view/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_toolbar-android] /home/tech-in/Documentos/iprb/node_modules/@react-native-community/toolbar-android/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:lottie-react-native] /home/tech-in/Documentos/iprb/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:lottie-react-native] /home/tech-in/Documentos/iprb/node_modules/lottie-react-native/src/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-pdf] /home/tech-in/Documentos/iprb/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-pdf] /home/tech-in/Documentos/iprb/node_modules/react-native-pdf/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-video] /home/tech-in/Documentos/iprb/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/tech-in/Documentos/iprb/node_modules/react-native-video/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/dd057d448e8e21e4e5bd03c42f79b399/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.62.2] /home/tech-in/.gradle/caches/transforms-2/files-2.1/dd057d448e8e21e4e5bd03c42f79b399/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/tech-in/.gradle/caches/transforms-2/files-2.1/38e99c79ef56f8c33eaa050abe489800/reflow-animator-1.0.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.wix-playground:reflow-animator:1.0.6] /home/tech-in/.gradle/caches/transforms-2/files-2.1/38e99c79ef56f8c33eaa050abe489800/reflow-animator-1.0.6/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.barteksc:android-pdf-viewer:3.1.0-beta.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/596226c7525553f4abb06262d8391358/jetified-android-pdf-viewer-3.1.0-beta.1/AndroidManifest.xml:7:5-9:41
@@ -325,10 +322,10 @@ MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tech-in
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/cc9df12b5fe36837d58ea04585572259/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [org.webkit:android-jsc:r245459] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9d714119a9f5614901429a68a092ab8b/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9d714119a9f5614901429a68a092ab8b/android-jsc-r245459/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-location] /home/tech-in/Documentos/IPRB/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
-MERGED from [:react-native-location] /home/tech-in/Documentos/IPRB/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/iprb/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] /home/tech-in/Documentos/iprb/node_modules/react-native-image-resizer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-location] /home/tech-in/Documentos/iprb/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-location] /home/tech-in/Documentos/iprb/node_modules/react-native-location/android/build/intermediates/library_manifest/release/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/d31cb402ffaf682b9ac36d8ca0ecc443/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.airbnb.android:lottie:3.4.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/d31cb402ffaf682b9ac36d8ca0ecc443/lottie-3.4.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.wix-playground:ahbottomnavigation:3.2.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/9371038f989038f7fd0d29e8755e0098/ahbottomnavigation-3.2.0/AndroidManifest.xml:7:5-9:41
@@ -445,24 +442,24 @@ MERGED from [com.facebook.soloader:annotation:0.8.0] /home/tech-in/.gradle/cache
 MERGED from [com.facebook.soloader:annotation:0.8.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/b894c6a67d034f56534b358667d08abd/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/654ef7cafdaffc862946b4490f803c5e/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/654ef7cafdaffc862946b4490f803c5e/annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:24:5-79
 MERGED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:22:5-79
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:5-79
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 uses-feature#0x00020000
@@ -477,7 +474,7 @@ ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transfo
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:9:9-44
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:8:9-63
-permission#com.techinweb.techin.permission.C2D_MESSAGE
+permission#com.techinweb.iprb.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:7:5-9:47
 	android:protectionLevel
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:9:9-44
@@ -487,7 +484,7 @@ uses-permission#${applicationId}.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:22-76
-uses-permission#com.techinweb.techin.permission.C2D_MESSAGE
+uses-permission#com.techinweb.iprb.permission.C2D_MESSAGE
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:22-76
@@ -501,8 +498,8 @@ uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:18:5-68
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/e7f8f894b62b58f7c324b611920d1186/firebase-iid-19.0.0/AndroidManifest.xml:24:5-68
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
-MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
+MERGED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:5-68
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:18:22-65
 uses-permission#android.permission.VIBRATE
@@ -599,7 +596,7 @@ intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:$
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.techinweb.techin
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.techinweb.iprb
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:13-66:29
 	android:priority
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:62:28-50
@@ -611,7 +608,7 @@ category#${applicationId}
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
-category#com.techinweb.techin
+category#com.techinweb.iprb
 ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
 	android:name
 		ADDED from [com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
@@ -756,53 +753,53 @@ ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gra
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:24:13-79
 provider#com.imagepicker.FileProvider
-ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
 	android:exported
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
 	android:resource
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
 	android:name
-		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+		ADDED from [:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
 provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
-ADDED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+ADDED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
 	android:grantUriPermissions
-		ADDED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+		ADDED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
 	android:authorities
-		ADDED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+		ADDED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
 	android:exported
-		ADDED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+		ADDED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
 	android:name
-		ADDED from [:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+		ADDED from [:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
 uses-permission#com.android.vending.CHECK_LICENSE
-ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
 	android:name
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
 	android:name
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
+ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
 	android:name
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-78
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-78
 provider#com.RNFetchBlob.Utils.FileProvider
-ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
 	android:grantUriPermissions
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
 	android:authorities
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
 	android:exported
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+		ADDED from [:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
 meta-data#com.google.android.gms.version
 ADDED from [com.google.maps.android:android-maps-utils:0.5] /home/tech-in/.gradle/caches/transforms-2/files-2.1/0903447fa03703d50e4decfcdd0736fe/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
 MERGED from [com.google.android.gms:play-services-basement:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/4f075cb613d9637f0e22208466976f99/jetified-play-services-basement-17.2.1/AndroidManifest.xml:23:9-25:69

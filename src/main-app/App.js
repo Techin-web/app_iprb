@@ -15,9 +15,7 @@ class App extends Component {
         super(props);
 
         OneSignal.init(ONESIGNAL_ID, {
-            kOSSettingsKeyAutoPrompt: false,
-            kOSSettingsKeyInAppLaunchURL: false,
-            kOSSettingsKeyInFocusDisplayOption: 2,
+            kOSSettingsKeyAutoPrompt: true,
         });
     }
 

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/tech-in/Documentos/IPRB/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
+            "outputFile": "/home/tech-in/Documentos/iprb/android/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-h480dp-land-v13/values-h480dp-land-v13.xml",
             "map": [
                 {
                     "source": "/home/tech-in/.gradle/caches/transforms-2/files-2.1/5edd8adc446d3d9075e75143c78cc9f6/material-1.2.0-alpha03/res/values-h480dp-land-v13/values-h480dp-land-v13.xml",

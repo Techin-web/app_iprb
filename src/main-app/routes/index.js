@@ -18,6 +18,7 @@ const navigationName = {
     axaTelemedicina: "tech.in.main.axaTelemedicina",
     paymentScreen: "tech.in.main.paymentScreen",
     paymentSuccessScreen: "tech.in.main.paymentSuccessScreen",
+    productTutorial: "tech.in.main.productTutorial",
     toosegurosMoto: "tech.in.main.toosegurosMoto",
     healthInsuranceTerms: "tech.in.main.healthInsuranceTerms",
     bible: "tech.in.main.bible",
@@ -30,6 +31,7 @@ const navigationName = {
     mediasAlbum: "tech.in.main.mediasAlbum",
     mediasDetails: "tech.in.main.mediasDetails",
     editProfile: "tech.in.main.editProfile",
+    webView: "tech.in.main.webView"
 };
 
 const registerScreens = () => {
@@ -78,6 +80,8 @@ const registerScreens = () => {
     );
 
     Navigation.registerComponent(navigationName.topTabs, () => screens.TopTabs);
+
+    Navigation.registerComponent(navigationName.productTutorial, () => screens.ProductTutorial);
 
     Navigation.registerComponent(
         navigationName.cardSolicitation,
@@ -134,6 +138,11 @@ const registerScreens = () => {
     Navigation.registerComponent(
         navigationName.muralDetails,
         () => screens.MuralDetails
+    );
+
+    Navigation.registerComponent(
+        navigationName.webView,
+        () => screens.WebView
     );
 };
 

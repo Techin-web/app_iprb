@@ -1,7 +1,7 @@
 import axios from "axios";
 import AsyncStorage from "@react-native-community/async-storage";
 
-const BASE_URL = "http://179.184.24.102:3331/api";
+const BASE_URL = "https://ea7f188e86ce.ngrok.io/api";
 //const BASE_URL = 'http://134.209.38.41:3000/api';
 const TOKEN_KEY = "techin-token";
 

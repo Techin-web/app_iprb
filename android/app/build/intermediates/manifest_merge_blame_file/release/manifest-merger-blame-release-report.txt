@@ -1,27 +1,27 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.techinweb.techin"
+3    package="com.techinweb.iprb"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+8-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml
+9-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:4:5-67
-11-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:4:22-64
+11-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:4:22-64
 12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:5:5-64
-12-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:5:22-62
+12-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:5:5-64
+12-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:5:22-62
 13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-13-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:6:5-80
-13-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:6:22-78
+13-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:6:5-80
+13-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:6:22-78
 14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-14-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:7:5-78
-14-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:7:22-76
+14-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:7:5-78
+14-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:7:22-76
 15
 16    <!-- Include required permissions for Google Maps API to run. -->
 17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -36,12 +36,12 @@
 21-->[com.google.android.gms:play-services-maps:17.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/c086a972b9618ab151218c20f7a96df3/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 22    <permission
 22-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:7:5-9:47
-23        android:name="com.techinweb.techin.permission.C2D_MESSAGE"
+23        android:name="com.techinweb.iprb.permission.C2D_MESSAGE"
 23-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:8:9-63
 24        android:protectionLevel="signature" />
 24-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:9:9-44
 25
-26    <uses-permission android:name="com.techinweb.techin.permission.C2D_MESSAGE" />
+26    <uses-permission android:name="com.techinweb.iprb.permission.C2D_MESSAGE" />
 26-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:5-79
 26-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:11:22-76
 27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
@@ -114,77 +114,77 @@
 55-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:5-89
 55-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:46:22-86
 56    <uses-permission android:name="com.android.vending.CHECK_LICENSE" /> <!-- Required to check whether Wi-Fi is enabled -->
-56-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
-56-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
+56-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-73
+56-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-70
 57    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to read and write the expansion files on shared storage -->
-57-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
-57-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
+57-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:5-76
+57-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:22-73
 58    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-58-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
-58-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-78
+58-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:5-81
+58-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:33:22-78
 59
 60    <application
-60-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:9:5-38:19
-61        android:name="com.techinweb.techin.MainApplication"
-61-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:10:7-38
+60-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:9:5-38:19
+61        android:name="com.techinweb.iprb.MainApplication"
+61-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:10:7-38
 62        android:allowBackup="false"
-62-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:14:7-34
+62-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:14:7-34
 63        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 63-->[androidx.core:core:1.2.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/a4ae0611a1658a1c1b1560b87c32ae26/core-1.2.0/AndroidManifest.xml:24:18-86
 64        android:icon="@mipmap/ic_launcher"
-64-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:12:7-41
+64-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:12:7-41
 65        android:label="@string/app_name"
-65-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:11:7-39
+65-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:11:7-39
 66        android:roundIcon="@mipmap/ic_launcher_round"
-66-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:13:7-52
+66-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:13:7-52
 67        android:theme="@style/AppTheme"
-67-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:16:7-38
+67-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:16:7-38
 68        android:usesCleartextTraffic="true" >
-68-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:15:7-42
+68-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:15:7-42
 69        <activity
-69-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:18:7-28:18
-70            android:name="com.techinweb.techin.MainActivity"
-70-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:19:9-37
+69-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:18:7-28:18
+70            android:name="com.techinweb.iprb.MainActivity"
+70-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:19:9-37
 71            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-71-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:21:9-86
+71-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:21:9-86
 72            android:label="@string/app_name"
-72-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:20:9-41
+72-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:20:9-41
 73            android:launchMode="singleTask"
-73-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:22:9-40
+73-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:22:9-40
 74            android:windowSoftInputMode="adjustResize" >
-74-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:23:9-51
+74-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:23:9-51
 75            <intent-filter>
-75-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:24:9-27:25
+75-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:24:9-27:25
 76                <action android:name="android.intent.action.MAIN" />
-76-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:25:13-65
-76-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:25:21-62
+76-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:25:13-65
+76-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:25:21-62
 77
 78                <category android:name="android.intent.category.LAUNCHER" />
-78-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:26:13-73
-78-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:26:23-70
+78-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:26:13-73
+78-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:26:23-70
 79            </intent-filter>
 80        </activity>
 81
 82        <meta-data
-82-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:30:7-32:66
+82-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:30:7-32:66
 83            android:name="com.google.android.geo.API_KEY"
-83-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:31:9-54
+83-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:31:9-54
 84            android:value="AIzaSyCIkJrMssSzix3ND-8y0egY-E7qbUaixbc" />
-84-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:32:9-64
+84-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:32:9-64
 85
 86        <uses-library
-86-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:7-85
+86-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:7-85
 87            android:name="org.apache.http.legacy"
-87-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:21-58
+87-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:21-58
 88            android:required="false" />
-88-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:34:59-83
+88-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:34:59-83
 89
 90        <activity
-90-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:36:7-84
+90-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:36:7-84
 91            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-91-->/home/tech-in/Documentos/IPRB/android/app/src/main/AndroidManifest.xml:36:17-81
+91-->/home/tech-in/Documentos/iprb/android/app/src/main/AndroidManifest.xml:36:17-81
 92            android:exported="false" />
-92-->[:react-native-navigation] /home/tech-in/Documentos/IPRB/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:14:13-37
+92-->[:react-native-navigation] /home/tech-in/Documentos/iprb/node_modules/react-native-navigation/lib/android/app/build/intermediates/library_manifest/reactNative62Release/AndroidManifest.xml:14:13-37
 93
 94        <meta-data
 94-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:49:9-51:51
@@ -214,7 +214,7 @@
 107-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:17-81
 107-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:63:25-78
 108
-109                <category android:name="com.techinweb.techin" />
+109                <category android:name="com.techinweb.iprb" />
 109-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:17-61
 109-->[com.onesignal:OneSignal:3.15.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/ace7b11ef06c1b7d5ff20f7e8f082da9/jetified-OneSignal-3.15.1/AndroidManifest.xml:65:27-58
 110            </intent-filter>
@@ -377,55 +377,55 @@
 195-->[com.google.android.gms:play-services-base:17.2.1] /home/tech-in/.gradle/caches/transforms-2/files-2.1/fc167c24157405628c90ff4be4ce1212/play-services-base-17.2.1/AndroidManifest.xml:26:13-72
 196
 197        <provider
-197-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+197-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
 198            android:name="com.imagepicker.FileProvider"
-198-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
-199            android:authorities="com.techinweb.techin.provider"
-199-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+198-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+199            android:authorities="com.techinweb.iprb.provider"
+199-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
 200            android:exported="false"
-200-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+200-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
 201            android:grantUriPermissions="true" >
-201-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+201-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
 202            <meta-data
-202-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+202-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
 203                android:name="android.support.FILE_PROVIDER_PATHS"
-203-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+203-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
 204                android:resource="@xml/provider_paths" />
-204-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+204-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
 205        </provider>
 206        <provider
-206-->[:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+206-->[:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
 207            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-207-->[:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
-208            android:authorities="com.techinweb.techin.fileprovider"
-208-->[:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+207-->[:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+208            android:authorities="com.techinweb.iprb.fileprovider"
+208-->[:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
 209            android:exported="false"
-209-->[:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+209-->[:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
 210            android:grantUriPermissions="true" >
-210-->[:react-native-webview] /home/tech-in/Documentos/IPRB/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+210-->[:react-native-webview] /home/tech-in/Documentos/iprb/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
 211            <meta-data
-211-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+211-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
 212                android:name="android.support.FILE_PROVIDER_PATHS"
-212-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+212-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
 213                android:resource="@xml/file_provider_paths" />
-213-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+213-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
 214        </provider>
 215        <provider
-215-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
+215-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:9-44:20
 216            android:name="com.RNFetchBlob.Utils.FileProvider"
-216-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
-217            android:authorities="com.techinweb.techin.provider"
-217-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
+216-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:13-62
+217            android:authorities="com.techinweb.iprb.provider"
+217-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-60
 218            android:exported="false"
-218-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
+218-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-37
 219            android:grantUriPermissions="true" >
-219-->[:rn-fetch-blob] /home/tech-in/Documentos/IPRB/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
+219-->[:rn-fetch-blob] /home/tech-in/Documentos/iprb/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:13-47
 220            <meta-data
-220-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
+220-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-17:58
 221                android:name="android.support.FILE_PROVIDER_PATHS"
-221-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
+221-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:17-67
 222                android:resource="@xml/provider_paths" />
-222-->[:react-native-image-picker] /home/tech-in/Documentos/IPRB/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
+222-->[:react-native-image-picker] /home/tech-in/Documentos/iprb/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:17-55
 223        </provider>
 224
 225        <meta-data
@@ -439,7 +439,7 @@
 229-->[com.google.firebase:firebase-common:18.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1eef45e43ff9f7815b1d43af827821ce/firebase-common-18.0.0/AndroidManifest.xml:12:9-16:39
 230            android:name="com.google.firebase.provider.FirebaseInitProvider"
 230-->[com.google.firebase:firebase-common:18.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1eef45e43ff9f7815b1d43af827821ce/firebase-common-18.0.0/AndroidManifest.xml:13:13-77
-231            android:authorities="com.techinweb.techin.firebaseinitprovider"
+231            android:authorities="com.techinweb.iprb.firebaseinitprovider"
 231-->[com.google.firebase:firebase-common:18.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1eef45e43ff9f7815b1d43af827821ce/firebase-common-18.0.0/AndroidManifest.xml:14:13-72
 232            android:exported="false"
 232-->[com.google.firebase:firebase-common:18.0.0] /home/tech-in/.gradle/caches/transforms-2/files-2.1/1eef45e43ff9f7815b1d43af827821ce/firebase-common-18.0.0/AndroidManifest.xml:15:13-37

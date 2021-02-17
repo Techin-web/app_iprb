@@ -21,8 +21,10 @@ import ToosegurosMoto from "./TopTabs/Products/tooseguros-moto";
 import AxaTelemedicina from "./TopTabs/Products/axa-telemedicina";
 import PaymentScreen from "./Payment";
 import PaymentSuccessScreen from './Success';
+import ProductTutorial from './ProductTutorial';
 import HealthInsuranceTerms from "./HealthInsuranceTerms";
 import EditProfile from "./UserSettings/EditProfile";
+import WebView from './WebView';
 
 export {
     SignIn,
@@ -48,6 +50,8 @@ export {
     AxaTelemedicina,
     PaymentScreen,
     PaymentSuccessScreen,
+    ProductTutorial,
     HealthInsuranceTerms,
     EditProfile,
+    WebView
 };

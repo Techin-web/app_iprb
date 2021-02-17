@@ -6,11 +6,14 @@ import {
     Text,
     TouchableOpacity,
     Alert,
+    Linking
 } from "react-native";
+import { Navigation } from "react-native-navigation";
 import FoundationIcons from "react-native-vector-icons/dist/Foundation";
 import Card from "./Card";
 import { responsiveWidth as rw } from "../../../util/Dimensions";
 import API from "../../../services/axios-instance";
+import { navigationName } from "../../../routes";
 
 import styles from "./styles";
 
@@ -38,49 +41,57 @@ class Awards extends Component {
             this.setState({
                 loading: false,
                 awards: data.awardsDetails,
-                userAmount: data.userAmount,
+                userAmount: data.allAward,
             });
         } catch (err) {
             Alert.alert(
-                "Ocorreu um erro ao carregar premiações. Tente novamente mais tarde."
+                "Ocorreu um erro ao carregar premiações.", "Tente novamente mais tarde."
             );
         }
+
+        this.setState({ loading: false });
     };
 
     withdrawHandler = async () => {
         try {
-            const { userAmount } = { ...this.state };
+            const { userAmount } = this.state;
 
-            if (userAmount < 20) {
+            if (userAmount < 1) {
                 return Alert.alert(
                     "Saldo Insuficiente",
-                    "O saldo precisa ser maior que R$20 para realizar a retirada",
-                    [
-                        {
-                            text: "ok",
-                        },
-                    ]
+                    "O saldo precisa ser maior que R$1,00 para realizar a retirada",
                 );
             }
 
             this.setState({ loading: true });
 
-            await API.post("/premiacao/saque/usuario", { observacao: "" });
+            await API.post("/premiacao/saque/usuario");
 
             this.setState({ loading: false, userAmount: 0 });
 
             Alert.alert(
                 "Saque realizado com sucesso!",
-                "Dentro de 14 dias úteis o saldo será depositado em seu cartão."
+                "Dentro de 14 dias úteis o saldo será depositado na sua carteira digital."
             );
         } catch (err) {
             this.setState({ loading: false });
 
             if (err.response) {
-                Alert.alert("Erro inesperado", err.response.data);
+                Alert.alert("Erro inesperado", "Tente novamente!");
             }
         }
     };
+
+    goWebView = () => {
+        Navigation.push(this.props.componentId, {
+            component: {
+                name: navigationName.webView,
+                passProps: {
+                    url: "https://web.smartmei.com.br/",
+                }
+            },
+        });
+    }
 
     render() {
         const { loading, awards, userAmount } = { ...this.state };
@@ -128,19 +139,32 @@ class Awards extends Component {
                                     {this.amountToString(userAmount)}
                                 </Text>
                             </View>
-                            <View style={styles.BottomContentHeaderRight}>
-                                <TouchableOpacity
-                                    style={styles.Button}
-                                    disabled={loading}
-                                    onPress={this.withdrawHandler}
-                                >
-                                    <Text style={styles.ButtonText}>
-                                        Fazer Retirada
-                                    </Text>
-                                </TouchableOpacity>
-                                <Text style={styles.ButtonObservation}>
-                                    *O valor mínimo para o saque é de R$20,00
-                                </Text>
+                            <View style={styles.FooterButtons}>
+                                <View style={styles.BottomContentHeaderRight}>
+                                    <TouchableOpacity
+                                        style={{ backgroundColor: "#00c873", padding: 10, borderRadius: 6 }}
+                                        disabled={loading}
+                                        onPress={() => this.goWebView()}
+                                    >
+                                        <Text style={styles.ButtonText}>
+                                            Carteira Digital
+                                        </Text>
+                                    </TouchableOpacity>
+                                    {/* <Text style={styles.ButtonObservation}>
+                                        *O valor mínimo para o saque é de R$20,00
+                                    </Text> */}
+                                </View>
+                                <View style={styles.BottomContentHeaderRight}>
+                                    <TouchableOpacity
+                                        style={styles.Button}
+                                        disabled={loading}
+                                        onPress={this.withdrawHandler}
+                                    >
+                                        <Text style={styles.ButtonText}>
+                                            Fazer Retirada
+                                        </Text>
+                                    </TouchableOpacity>
+                                </View>
                             </View>
                         </View>
                         {renderedCards}

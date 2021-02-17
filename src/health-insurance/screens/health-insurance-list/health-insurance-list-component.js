@@ -9,15 +9,72 @@ import styles from "./style";
 
 const baseURL = BASE_URL.replace("/api", "");
 
+const RenderContent = ({ handleClickNextScreen, healthInsurances, update }) => {
+    return (
+        update
+            ? <Spinner
+                color={styles.primaryColor.color}
+                style={styles.loading}
+            />
+            : <Content>
+                {healthInsurances.map((healthInsurance, i) => {
+                    return (
+                        <TouchableOpacity
+                            key={i}
+                            button
+                            onPress={() => {
+                                handleClickNextScreen(healthInsurance);
+                            }}
+                        >
+                            <Image
+                                source={{
+                                    uri: `${baseURL}/logo/${healthInsurance.id}`,
+                                }}
+                                style={{
+                                    width: "90%",
+                                    height: 100,
+                                    marginTop: 30,
+                                    marginLeft: "5%",
+                                    resizeMode: "contain",
+                                }}
+                            />
+                            <Text style={styles.healthInsuranceTitle}>
+                                {healthInsurance.name}
+                            </Text>
+                        </TouchableOpacity>
+                    )}
+                )}
+                { !healthInsurances[0] &&
+                    <View style={styles.noHealthInsurances}>
+                        <Text>Sem planos disponíveis para venda.</Text>
+                    </View>
+                }
+            </Content>
+    );
+}
+
 class HealthInsuranceList extends React.Component {
     state = {
         nextScreen: false,
+        healthInsurances: [],
+        update: false,
     };
 
     componentDidMount() {
         this.props.login().then(() => {
             this.props.fetchHealthInsurance();
         });
+
+        if(!this.props.healthInsurances[0]) {
+            this.setState({ update: true });
+
+            setTimeout(() => {
+                this.setState({ healthInsurances: this.props.healthInsurances });
+                this.setState({ update: false });
+            }, 2000);
+        }else {
+            this.setState({ healthInsurances: this.props.healthInsurances });
+        }
     }
 
     componentDidUpdate() {
@@ -39,59 +96,10 @@ class HealthInsuranceList extends React.Component {
         });
     };
 
-    renderContent() {
-        const { healthInsurances } = this.props;
-
-        return (
-            <Content>
-                {healthInsurances.map((healthInsurance, i) => {
-                    return (
-                        <TouchableOpacity
-                            key={i}
-                            button
-                            onPress={() => {
-                                this.handleClickNextScreen(healthInsurance);
-                            }}
-                        >
-                            <Image
-                                source={{
-                                    uri: `${baseURL}/logo/${healthInsurance.id}`,
-                                }}
-                                style={{
-                                    width: "90%",
-                                    height: 100,
-                                    marginTop: 30,
-                                    marginLeft: "5%",
-                                    resizeMode: "contain",
-                                }}
-                            />
-                            <Text style={styles.healthInsuranceTitle}>
-                                {healthInsurance.name}
-                            </Text>
-                        </TouchableOpacity>
-                    );
-                })}
-                {!healthInsurances.length && (
-                    <View style={styles.noHealthInsurances}>
-                        <Text>Sem planos disponíveis para venda.</Text>
-                    </View>
-                )}
-            </Content>
-        );
-    }
-
     render() {
-        const { loading } = this.props;
         return (
             <Container style={styles.container}>
-                {loading ? (
-                    <Spinner
-                        color={styles.primaryColor.color}
-                        style={styles.loading}
-                    />
-                ) : (
-                    this.renderContent()
-                )}
+                <RenderContent handleClickNextScreen={this.handleClickNextScreen} healthInsurances={this.state.healthInsurances} update={this.state.update} />
             </Container>
         );
     }
